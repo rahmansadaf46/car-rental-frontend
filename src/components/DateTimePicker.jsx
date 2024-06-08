@@ -8,7 +8,7 @@ const DateTimePicker = ({ value, handleDate, minValue }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDatePicker = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(true);
   };
   return (
     <div className="date-time-picker" onClick={toggleDatePicker}>
