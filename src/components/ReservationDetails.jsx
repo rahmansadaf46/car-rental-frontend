@@ -31,7 +31,6 @@ const ReservationDetails = ({
             onChange={handleFormData}
             name="reservationId"
             className="form-control"
-            required
           />
         </div>
         <div className="form-group">
