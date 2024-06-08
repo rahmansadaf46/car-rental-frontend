@@ -13,5 +13,5 @@ This project is a frontend application for a car rental service. Users can input
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/car-rental-frontend.git
+   git clone https://github.com/rahmansadaf46/car-rental-frontend.git
    cd car-rental-frontend
