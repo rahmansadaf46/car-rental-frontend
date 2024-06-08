@@ -14,7 +14,6 @@ const CustomModal = ({
   handleCloseModal,
 }) => {
   const modalBodyRef = useRef();
-
   return (
     <Modal show={showModal} onHide={handleCloseModal} size="lg">
       <Modal.Body ref={modalBodyRef}>
@@ -62,15 +61,16 @@ const CustomModal = ({
                   UNIT DETAILS
                 </h5>
                 <div className="custom-modal-text">
-                  <p>{reservationData.vehicle.make} {reservationData.vehicle.model}</p>
-                  <p>{reservationData.vehicle.year}</p>
-                  <p>{reservationData.vehicle.type}</p>
+                  <p>Unit: {reservationData.vehicle.type} </p>
+                  <p>Make and Model: {reservationData.vehicle.make} {reservationData.vehicle.model}</p>
                 </div>
+                <br />
                 <div className="custom-modal-text">
                   <p>Bill to</p>
                   <p>Payment method: unpaid</p>
                   <p>Auth: $0.00</p>
                 </div>
+                <br/>
                 <div className="custom-modal-text-large">
                   <p>Referral</p>
                   <p>
