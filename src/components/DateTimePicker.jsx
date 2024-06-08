@@ -35,8 +35,8 @@ const DateTimePicker = ({ value, handleDate, minValue }) => {
 
 DateTimePicker.propTypes = {
   handleDate: PropTypes.func.isRequired,
-  value: PropTypes.string,
-  minValue: PropTypes.string,
+  value: PropTypes.instanceOf(Date), 
+  minValue: PropTypes.instanceOf(Date),
 };
 
 export default DateTimePicker;
