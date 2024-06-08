@@ -15,3 +15,5 @@ This project is a frontend application for a car rental service. Users can input
    ```sh
    git clone https://github.com/rahmansadaf46/car-rental-frontend.git
    cd car-rental-frontend
+   npm install
+   npm run dev
