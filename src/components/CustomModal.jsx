@@ -4,6 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ReactToPrint from "react-to-print";
 import logo from "../assets/logo.png";
+import { formatDate } from "../utils/mainUtil";
 
 const CustomModal = ({
   totalCharges,
@@ -112,8 +113,8 @@ const CustomModal = ({
                   <p>CLAIM</p>
                 </div>
                 <div className="custom-modal-text">
-                  <p>Date/Time Out: {new Date(reservationData.pickUpDate).toLocaleString()}</p>
-                  <p>Date/Time In: {new Date(reservationData.returnDate).toLocaleString()}</p>
+                  <p>Date/Time Out: {formatDate(reservationData.pickUpDate)}</p>
+                  <p>Date/Time In: {formatDate(reservationData.returnDate)}</p>
                 </div>
                 <div className="custom-modal-charges">
                   <h5 className="custom-modal-section-title">
