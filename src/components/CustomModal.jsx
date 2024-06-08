@@ -140,7 +140,7 @@ const CustomModal = ({
                       ))}
                       <tr>
                         <td colSpan={6}><b>Total Charges</b></td>
-                        <td><b>${totalCharges?.toFixed(2)}</b></td>
+                        <td className="custom-modal-tbody"><b>${totalCharges?.toFixed(2)}</b></td>
                       </tr>
                     </tbody>
                   </table>
