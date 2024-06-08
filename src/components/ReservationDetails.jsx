@@ -67,7 +67,7 @@ const ReservationDetails = ({
           <input
             onChange={handleFormData}
             name="discount"
-            type="text"
+            type="number"
             className="form-control"
           />
         </div>
