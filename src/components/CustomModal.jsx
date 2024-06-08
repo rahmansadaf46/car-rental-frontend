@@ -118,28 +118,28 @@ const CustomModal = ({
                 </div>
                 <div className="custom-modal-charges">
                   <h5 className="custom-modal-section-title">
-                    Charges Summary
+                    CHARGE SUMMARY
                   </h5>
                   <table className="custom-modal-charges-table">
                     <thead>
                       <tr>
-                        <td colSpan={3}></td>
-                        <td><b>Unit</b></td>
-                        <td><b>Price</b></td>
-                        <td><b>Amount</b></td>
+                        <td colSpan={4}></td>
+                        <td className="custom-modal-thead"><b>Unit</b></td>
+                        <td className="custom-modal-thead"><b>Price</b></td>
+                        <td className="custom-modal-thead"><b>Amount</b></td>
                       </tr>
                     </thead>
                     <tbody>
                       {breakdown.map((item, index) => (
                         <tr key={index}>
-                          <td colSpan={3}>{item.charge}</td>
-                          <td><b>{item.unit}</b></td>
-                          <td><b>${item.rate?.toFixed(2)}</b></td>
-                          <td><b>${item.total?.toFixed(2)}</b></td>
+                          <td colSpan={4}>{item.charge}</td>
+                          <td className="custom-modal-tbody">{item.unit}</td>
+                          <td className="custom-modal-tbody">${item.rate?.toFixed(2)}</td>
+                          <td className="custom-modal-tbody">${item.total?.toFixed(2)}</td>
                         </tr>
                       ))}
                       <tr>
-                        <td colSpan={5}><b>Total Charges</b></td>
+                        <td colSpan={6}><b>Total Charges</b></td>
                         <td><b>${totalCharges?.toFixed(2)}</b></td>
                       </tr>
                     </tbody>

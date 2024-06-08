@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-print {
@@ -8,30 +8,29 @@ body {
   height: 48px;
   padding: 8px 16px 8px 16px;
   border-radius: 5px;
-  background: #5D5CFF!important;
-  color: white!important;
+  background: #5d5cff !important;
+  color: white !important;
   border: none !important;
 }
-.sub-header{
+.sub-header {
   padding-bottom: 5px;
-  border-bottom: 1.5px solid #5D5CFF;
+  border-bottom: 1.5px solid #5d5cff;
 }
 
-.section{
-  border: 1px solid #D7D7FF;
+.section {
+  border: 1px solid #d7d7ff;
   padding: 10px;
   border-radius: 5px;
 }
 
-.form-control{
-  border: 1px solid #D7D7FF!important;
+.form-control {
+  border: 1px solid #d7d7ff !important;
   margin: 8px 0px;
 }
 
-.duration-label{
+.duration-label {
   margin-top: 12px;
 }
-
 
 .charge-label {
   display: flex;
@@ -52,17 +51,15 @@ body {
   margin-bottom: 10px;
 }
 
-
-
 .charges-summary-container {
   padding: 0;
   font-family: Arial, sans-serif;
 }
 
 .charges-summary-box {
-  border: 1px solid #5D5CFF;
+  border: 1px solid #5d5cff;
   border-radius: 8px;
-  background-color: #E0E0F8;
+  background-color: #e0e0f8;
   padding: 10px;
 }
 
@@ -72,7 +69,7 @@ body {
 }
 
 .charges-summary-header {
-  border-bottom: 1.5px solid #5D5CFF;
+  border-bottom: 1.5px solid #5d5cff;
 }
 
 .charges-summary-cell {
@@ -93,7 +90,7 @@ body {
 }
 .date-time-picker {
   position: relative;
-  border: 1px solid #D7D7FF;
+  border: 1px solid #d7d7ff;
   border-radius: 8px;
   padding: 10px 40px 10px 10px;
   font-size: 16px;
@@ -118,16 +115,16 @@ body {
   font-size: 20px;
 }
 
-.text-red{
+.text-red {
   color: red;
 }
 
-.duration-text{
-  color: #828290!important;
+.duration-text {
+  color: #828290 !important;
 }
 
 .dropdown {
-  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5%22/%3E%3C/svg%3E');
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5%22/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
@@ -190,9 +187,17 @@ body {
   text-align: center;
 }
 
-@media print {
-  .custom-modal-body{
-    margin:20px
-  }
+.custom-modal-thead {
+  padding: 0px 10px;
+}
 
+.custom-modal-tbody {
+  padding: 0px 5px;
+  text-align: center;
+}
+
+@media print {
+  .custom-modal-body {
+    margin: 20px;
+  }
 }
